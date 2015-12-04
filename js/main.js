@@ -4,4 +4,11 @@ $(document).ready(function() {
 
 });
 
+$(window).load(function(){
+
+  $('.hcaption').hcaptions({
+        effect: "fade"
+  });
+
+});
 
