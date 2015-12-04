@@ -4,7 +4,7 @@ $(document).ready(function() {
 
 });
 
-$(window).load(function(){
+$('click').ready(function(){
 
   $('.hcaption').hcaptions({
         effect: "fade"
