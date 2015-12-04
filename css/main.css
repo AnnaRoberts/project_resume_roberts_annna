@@ -41,15 +41,16 @@ li , p {
     display: block;
     margin: auto;
 }
+
 #profile-photo {
     padding-left: 50px;
 }
+
 #profile h1 {
     color: #f3f4ef;
     margin-left: 52px;
     margin-top: -20px;
     font-size: 4em;
-
 }
 
 #profile h2 {
@@ -68,6 +69,39 @@ li , p {
     color: #707071;
     padding-left: 10px;
     padding-right: 10px;
+}
+
+@media all and (max-width: 600px) {
+   #profile li {
+        display: inline-block;
+    }
+}
+
+@media all and (min-width: 600px) {
+    #profile img {
+        display: block;
+        margin: auto;
+    }
+}
+
+@media all and (min-width: 800px) {
+    #profile-photo {
+        float: right;
+        width: 175px;
+        padding: 0;
+    }
+}
+
+@media all and (min-width: 950px) {
+    #profile-photo {
+        float: right;
+        width: 250px;
+        padding: 0;
+    }
+
+    #profile h1, h2 {
+        padding-right: 245px;
+    }
 }
 
 /* -MAIN CONTENT- */
@@ -93,6 +127,19 @@ li , p {
 
 #main-content li  h3 {
     font-style: bold;
+}
+
+/* skills */
+
+#skills-list li {
+    text-align: justify;
+}
+
+@media all and (min-width: 950px) {
+    #skills {
+        float: right;
+        padding-right: 65px;
+    }
 }
 
 /* -FOOTER- */
