@@ -21,11 +21,19 @@ body {
 }
 
 /* profile */
+#profile {
+    text-align: center;
+    margin-left: -20px;
+}
+
+#profile img {
+    display: block;
+    margin: auto;
+}
 
 #profile h1,h2 {
-    text-align: center;
     color: #f3f4ef;
-
+    margin-left: 52px;
 }
 
 #profile ul {
@@ -34,10 +42,9 @@ body {
 #profile li {
     font-size: 0.8em;
     display: inline-block;
-    padding-left: 15px;
-    padding-right: 15px;
-    text-align: center;
     color: #707071;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 /* -MAIN CONTENT- */
