@@ -2,7 +2,7 @@
  [Git Hub Link] (https://github.com/AnnaRoberts/project_resume_roberts_annna.git)
  
 # Website URL
- [Web Host Link] (https://www.dandeliondesigncompany.com/resume)
+ [Web Host Link] (http://dandeliondesigncompany.com/project_resume_roberts_anna)
  
 
 # jQuery plugins 
