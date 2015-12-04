@@ -39,3 +39,29 @@ body {
     text-align: center;
     color: #707071;
 }
+
+/* MAIN CONTENT */
+
+#main-content {
+    margin: auto;
+    background-color: #f3f4ef;
+    opacity: none;
+    padding: 20px;
+}
+
+#main-content h1 {
+    padding: 0;
+    margin: auto;
+}
+
+#main-content li {
+    list-style-type: none;
+    padding-top: 0;
+}
+
+#main-content p {
+    text-align: justify;
+}
+
+
+
